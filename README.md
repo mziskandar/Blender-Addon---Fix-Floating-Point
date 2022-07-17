@@ -7,7 +7,7 @@ Fix floating point inaccuracy in Blender large object.
 
 ![mzDocFixFloatingPoint03](https://user-images.githubusercontent.com/1291717/179379680-a4311995-c43f-455a-a5b3-704d7f611ccd.png)
 
-After installing and activating the Addon, MISC panel will appear and Fix Floating Point button can be use.
+After installing and activating the Addon, MISC panel will appear and Fix Floating Point button can be use in object mode.
 
 ![mzDocFixFloatingPoint04](https://user-images.githubusercontent.com/1291717/179379686-4b66f6f7-3d33-47be-b618-70d2f780416a.png)
 
