@@ -1,4 +1,4 @@
-# Blender Addon - Fix-Floating Point
+# Blender Addon - Fix Floating Point
 Fix floating point inaccuracy in Blender large object.
 
 ![mzDocFixFloatingPoint01](https://user-images.githubusercontent.com/1291717/179379673-9bfcf4bf-c3c6-4244-9761-6948cf01917a.png)
@@ -12,3 +12,5 @@ After installing and activating the Addon, MISC panel will appear and Fix Floati
 ![mzDocFixFloatingPoint04](https://user-images.githubusercontent.com/1291717/179379686-4b66f6f7-3d33-47be-b618-70d2f780416a.png)
 
 ![mzDocFixFloatingPoint05](https://user-images.githubusercontent.com/1291717/179379695-aaefaa6b-28a1-4359-9cf3-686d2d140327.png)
+
+Finally, leaading minor inaccuracy will be truncated.
