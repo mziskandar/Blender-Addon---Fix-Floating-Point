@@ -20,17 +20,18 @@ class ObjectFixFloatingPointOperator(bpy.types.Operator):
        
         def fixFloat(f):
             result = f
-            s = format(1%f,'.6f')
-            if s[0] == '-':
-                sPlace = 1
-            else:
-                sPlace = 0
-            if s[sPlace+4] == '0':
-                if s[sPlace+5] == '0':
-                    result = round(f, 3)
-            elif s[sPlace+4] == '9':
-                if s[sPlace+5] == '9':
-                    result = round(f, 3)    
+            if result != 0:
+                s = format(1%f,'.6f')
+                if s[0] == '-':
+                    sPlace = 1
+                else:
+                    sPlace = 0
+                if s[sPlace+4] == '0':
+                    if s[sPlace+5] == '0':
+                        result = round(f, 3)
+                elif s[sPlace+4] == '9':
+                    if s[sPlace+5] == '9':
+                        result = round(f, 3)    
             return result
         
         selectedObjects = bpy.context.selected_objects
